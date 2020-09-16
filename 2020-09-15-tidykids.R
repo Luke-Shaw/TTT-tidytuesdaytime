@@ -107,7 +107,7 @@ rank_plot <- ggplot(rank_df, aes(x = year,
        y = "Rank",
        caption = paste0("#TidyTuesday",
                         "\ndata source: https://tinyurl.com/yyzvwqsw ",
-                        "\nplot code: https://tinyurl.com/yxsgmc8z")) +
+                        "\nplot code: https://tinyurl.com/y5n9sqgt")) +
   theme_bw() +
   # don't need the legend and the y axis gridlines confuse the rank lines
   theme(legend.position = "none",
